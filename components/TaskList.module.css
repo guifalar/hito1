@@ -1,0 +1,56 @@
+/* TaskList.module.css */
+.task-list-container {
+    margin: 20px;
+
+  }
+  
+  .search-input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .filter-label {
+    margin-bottom: 16px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .task-item input[type="checkbox"] {
+    grid-column: 1;
+    margin-right: 8px;
+  }
+  
+  .task-item .task-title {
+    grid-column: 2;
+  }
+  
+  .task-item .task-date {
+    grid-column: 3;
+  }
+  
+  .task-item .task-buttons {
+    grid-column: 4;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-item button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,76 @@
+/* Estilos generales del formulario */
+.formContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los campos de entrada y etiquetas */
+.labelContainer {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.inputField {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilos específicos para el botón de envío */
+.submitButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para los campos de fecha */
+.dateInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilos para ajustar el diseño de la fecha */
+.inputGroup {
+  display: flex;
+  align-items: center;
+}
+
+.inputGroupLabel {
+  margin-right: 10px;
+}
+
+/* Estilos para el campo de fecha en formato de texto */
+.dateText {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: not-allowed;
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el campo de fecha en formato de texto cuando está activo */
+.dateText:focus {
+  outline: none;
+}
